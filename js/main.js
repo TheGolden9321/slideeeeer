@@ -13,11 +13,10 @@ links.forEach(link => {
     })
 });
 
-let reviewSlider = new Swiper('.tab', {
+let reviewSlider = new Swiper('.tab__slider', {
     wrapperClass: "tab__sliderwrapper",
     slideClass: "tab__slide",
-    slidesPerView: "5",
-    speed: 700,
+    direction: 'horizontal',
     navigation:{
         prevEl: ".tab__prev",
         nextEl: ".tab__next",
